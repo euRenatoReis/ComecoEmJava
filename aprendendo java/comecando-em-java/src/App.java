@@ -1,0 +1,44 @@
+public class App {
+
+    public static void main(String[] args) throws Exception {
+        
+        int variavelNumeroInteiro = 1;
+        double numerosComCasasDecimais = 211223232323.00;
+        float numerosComCasasDecimaisMenosQueDouble = 1.0f;
+        char armazenaUmUnicoCaractere = 'A';
+        boolean armazenaSentencas = true; 
+        byte  armazenaNumerosInteirosPequenos = 10;
+        short armazenaNumerosInteirosCurtos = 9;
+        long  armazenaNumerosInteirosLongos = 200220202;
+        String armazenaPalavras = "aspas duplas please";
+        
+        
+        public class Pessoa{
+        
+           // atributos dessa pessoa
+        
+           String nome = 'renato';
+           int idade = 22;
+        
+           // construtor da pessoa
+        
+           public Pessoa( String nome, int idade){
+        
+                this.nome = nome; 
+                this.idade = idade;
+           }
+        
+           //Método
+           public void saudacao(){
+        
+            System.out.println("ola meu Nome é: " + nome + "tenho:" + idade + "anos");
+        
+           }
+        
+        }
+        
+        Pessoa pessoa1 = new Pessoa("Joao", 24);
+
+        pessoa1.saudacao()
+    }
+}
